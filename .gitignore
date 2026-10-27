@@ -8,3 +8,6 @@ captures/
 .cxx/
 .externalNativeBuild/
 build.log
+
+# Each learner adds their own Firebase config; never commit it.
+google-services.json

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Google Sign-In</string>
+    <string name="title">Welcome</string>
+    <string name="subtitle">Sign in with your Google account to continue.</string>
+    <string name="button_google">Sign in with Google</string>
+    <string name="button_sign_out">Sign out</string>
+    <string name="photo_description">Your profile photo</string>
+    <string name="error_no_account">Add a Google account in Settings first, then try again.</string>
+    <string name="error_sign_in">Sign-in did not work. Check your Web client ID and SHA-1 (see the guide).</string>
+    <string name="web_client_id">YOUR_WEB_CLIENT_ID.apps.googleusercontent.com</string>
+</resources>

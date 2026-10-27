@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RecyclerView Firebase</string>
+    <string name="title">Users, live from Firebase</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_age">Age</string>
+    <string name="button_add">Add user</string>
+    <string name="age_value">Age: %1$s</string>
+    <string name="need_name">Please enter a name</string>
+    <string name="delete_user">Delete user</string>
+    <string name="empty">No users yet. Add one above.</string>
+    <string name="error_read">Could not read the database. Check your rules and connection.</string>
+</resources>

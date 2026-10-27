@@ -17,6 +17,9 @@ Step-by-step guides live on [codelab-x.com](https://codelab-x.com).
 | [Fragments](fragments) | [Watch](https://www.youtube.com/watch?v=m-PefJ2CcR8) | [Read](https://codelab-x.com/videos/m-PefJ2CcR8) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/fragments.zip) |
 | [Google Maps](google-maps) | [Watch](https://www.youtube.com/watch?v=_gpreGNtNCM) | [Read](https://codelab-x.com/videos/_gpreGNtNCM) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/google-maps.zip) |
 | [Firebase Login and Register](firebase-login) | [Watch](https://www.youtube.com/watch?v=N-nari5HbLk) | [Read](https://codelab-x.com/videos/N-nari5HbLk) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/firebase-login.zip) |
+| [Phone Number Login (Firebase)](phone-auth) | [Watch](https://www.youtube.com/watch?v=BWseVs2MXaI) | [Read](https://codelab-x.com/videos/BWseVs2MXaI) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/phone-auth.zip) |
+| [Google Sign-In (Credential Manager)](google-sign-in) | [Watch](https://www.youtube.com/watch?v=XLbwd_zPbpw) | [Read](https://codelab-x.com/videos/XLbwd_zPbpw) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/google-sign-in.zip) |
+| [RecyclerView with Firebase](recyclerview-firebase) | [Watch](https://www.youtube.com/watch?v=p2KmuAO8YsE) | [Read](https://codelab-x.com/videos/p2KmuAO8YsE) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/recyclerview-firebase.zip) |
 | [SQLite CRUD](sqlite-crud) | [Watch](https://www.youtube.com/watch?v=9t8VVWebRFM) | [Read](https://codelab-x.com/videos/9t8VVWebRFM) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/sqlite-crud.zip) |
 
 Every project is built with the current stable Android Gradle Plugin before it is published.

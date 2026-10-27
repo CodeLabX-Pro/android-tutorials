@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Phone Login</string>
+    <string name="title">Log in with your phone</string>
+    <string name="subtitle">We will text you a 6-digit code.</string>
+    <string name="step_phone">Step 1 of 2: your number</string>
+    <string name="step_code">Step 2 of 2: the code we sent</string>
+    <string name="hint_phone">Phone number, e.g. +91 98765 43210</string>
+    <string name="hint_code">6-digit code</string>
+    <string name="button_send">Send code</string>
+    <string name="button_verify">Verify and log in</string>
+    <string name="resend">Didn\'t get it? Send again</string>
+    <string name="title_home">You are signed in</string>
+    <string name="subtitle_home">Verified phone number</string>
+    <string name="button_logout">Log out</string>
+    <string name="error_phone">Include + and your country code, e.g. +91</string>
+    <string name="error_send">Could not send the code. Check the number and try again.</string>
+    <string name="error_code">That code is not right. Check the SMS and try again.</string>
+</resources>

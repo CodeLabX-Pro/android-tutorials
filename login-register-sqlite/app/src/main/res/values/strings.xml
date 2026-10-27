@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Login Register SQLite</string>
+    <string name="title_login">Welcome back</string>
+    <string name="title_register">Create an account</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="button_login">Login</string>
+    <string name="button_signup">Sign up</string>
+    <string name="button_logout">Log out</string>
+    <string name="link_register">New user? Register here</string>
+    <string name="link_login">Existing user? Login here</string>
+    <string name="welcome">Welcome %1$s</string>
+    <string name="error_empty">Please enter a username and password</string>
+    <string name="error_login">Wrong username or password</string>
+    <string name="error_exists">That username is already taken</string>
+    <string name="registered">Registration successful</string>
+</resources>

@@ -15,6 +15,8 @@ Step-by-step guides live on [codelab-x.com](https://codelab-x.com).
 | [Camera App](camera-app) | [Watch](https://www.youtube.com/watch?v=59taMJThsFU) | [Read](https://codelab-x.com/videos/59taMJThsFU) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/camera-app.zip) |
 | [Simple Login](simple-login) | [Watch](https://www.youtube.com/watch?v=K5DWzHZZGB8) | [Read](https://codelab-x.com/videos/K5DWzHZZGB8) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/simple-login.zip) |
 | [Fragments](fragments) | [Watch](https://www.youtube.com/watch?v=m-PefJ2CcR8) | [Read](https://codelab-x.com/videos/m-PefJ2CcR8) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/fragments.zip) |
+| [Google Maps](google-maps) | [Watch](https://www.youtube.com/watch?v=_gpreGNtNCM) | [Read](https://codelab-x.com/videos/_gpreGNtNCM) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/google-maps.zip) |
+| [Firebase Login and Register](firebase-login) | [Watch](https://www.youtube.com/watch?v=N-nari5HbLk) | [Read](https://codelab-x.com/videos/N-nari5HbLk) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/firebase-login.zip) |
 | [SQLite CRUD](sqlite-crud) | [Watch](https://www.youtube.com/watch?v=9t8VVWebRFM) | [Read](https://codelab-x.com/videos/9t8VVWebRFM) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/sqlite-crud.zip) |
 
 Every project is built with the current stable Android Gradle Plugin before it is published.

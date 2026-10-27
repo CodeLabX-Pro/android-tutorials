@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Google Maps</string>
+    <string name="go_pune">Fly to Pune</string>
+    <string name="map_style">Map style</string>
+</resources>

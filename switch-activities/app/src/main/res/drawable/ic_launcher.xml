@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A white rounded tile with a code bracket: the splash logo. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <path
+        android:fillColor="#08915C"
+        android:pathData="M28,8h64a20,20 0,0 1,20 20v64a20,20 0,0 1,-20 20h-64a20,20 0,0 1,-20 -20v-64a20,20 0,0 1,20 -20z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#7B2FE0"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="9"
+        android:pathData="M50,42l-18,18l18,18M70,42l18,18l-18,18" />
+</vector>

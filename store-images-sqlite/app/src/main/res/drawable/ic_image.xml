@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder shown before a photo is picked. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path android:fillColor="#E4F7FF" android:pathData="M0,0h24v24h-24z" />
+    <path android:fillColor="#0A86C2" android:pathData="M8,8.5a1.5,1.5 0,1 0,0.01 0zM5,17l4,-5 3,3.5 2.5,-3 4.5,4.5z" />
+</vector>

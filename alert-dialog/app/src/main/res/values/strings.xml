@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Alert Dialogs</string>
+    <string name="title">Alert dialogs</string>
+    <string name="subtitle">Tap a button, or press Back to see the exit dialog.</string>
+    <string name="button_confirm">Delete a file</string>
+    <string name="button_choose">Choose a colour</string>
+    <string name="result_none">Your choice appears here</string>
+    <string name="delete_title">Delete this file?</string>
+    <string name="delete_message">You can\'t undo this.</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="result_kept">Kept the file</string>
+    <string name="result_deleted">File deleted</string>
+    <string name="choose_title">Choose a colour</string>
+    <string name="result_colour">You chose %1$s</string>
+    <string name="exit_title">Leave the app?</string>
+    <string name="exit_message">Are you sure you want to exit?</string>
+    <string name="stay">Stay</string>
+    <string name="exit">Exit</string>
+</resources>

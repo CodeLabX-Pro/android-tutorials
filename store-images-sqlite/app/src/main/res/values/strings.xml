@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Image Gallery</string>
+    <string name="title">My image gallery</string>
+    <string name="hint_name">Image name</string>
+    <string name="button_choose">Choose photo</string>
+    <string name="button_save">Save</string>
+    <string name="preview_description">The photo you picked</string>
+    <string name="photo_description">A saved photo</string>
+    <string name="delete_image">Delete image</string>
+    <string name="empty">No images yet. Choose a photo to start.</string>
+    <string name="untitled">Untitled</string>
+    <string name="saved">Saved to the database</string>
+    <string name="error_save">Could not save the image</string>
+    <string name="error_read">Could not open that photo</string>
+</resources>

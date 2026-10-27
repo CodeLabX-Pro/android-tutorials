@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Email App</string>
+    <string name="title">Write an email</string>
+    <string name="subtitle">Your email app will send it.</string>
+    <string name="hint_to">To</string>
+    <string name="hint_subject">Subject</string>
+    <string name="hint_message">Message</string>
+    <string name="button_send">Send</string>
+    <string name="error_email">Enter a valid email address</string>
+    <string name="choose_app">Send with</string>
+    <string name="no_email_app">No email app found on this device</string>
+</resources>

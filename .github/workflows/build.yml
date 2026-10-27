@@ -1,0 +1,46 @@
+# Compiles every tutorial on each push and pull request, so a broken project never reaches the downloads.
+name: Build all tutorials
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    outputs:
+      projects: ${{ steps.find.outputs.projects }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: find
+        run: echo "projects=$(ls -d */ | sed 's#/##' | while read d; do [ -f "$d/settings.gradle.kts" ] && echo "$d"; done | jq -R . | jq -sc .)" >> "$GITHUB_OUTPUT"
+
+  build:
+    needs: list
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        project: ${{ fromJson(needs.list.outputs.projects) }}
+    defaults:
+      run:
+        working-directory: ${{ matrix.project }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - uses: gradle/actions/setup-gradle@v4
+      # Firebase projects need a google-services.json to compile; learners add their own.
+      - name: Placeholder Firebase config
+        run: |
+          if grep -q google.services app/build.gradle.kts; then
+            pkg=$(grep -oP 'applicationId = "\K[^"]+' app/build.gradle.kts)
+            cat > app/google-services.json <<JSON
+          {"project_info":{"project_number":"000000000000","project_id":"ci-placeholder","storage_bucket":"ci-placeholder.appspot.com"},"client":[{"client_info":{"mobilesdk_app_id":"1:000000000000:android:0000000000000000","android_client_info":{"package_name":"$pkg"}},"oauth_client":[],"api_key":[{"current_key":"placeholder"}],"services":{"appinvite_service":{"other_platform_oauth_client":[]}}}],"configuration_version":"1"}
+          JSON
+          fi
+      - run: chmod +x gradlew && ./gradlew assembleDebug lint --no-daemon

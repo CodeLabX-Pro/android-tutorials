@@ -1,0 +1,17 @@
+# Keeps every tutorial on the latest stable libraries. Dependabot opens one grouped
+# update a month; the "Build all tutorials" workflow checks it compiles before it is merged.
+version: 2
+updates:
+  - package-ecosystem: gradle
+    directories:
+      - "/*"
+    schedule:
+      interval: monthly
+    groups:
+      android-libraries:
+        patterns: ["*"]
+        update-types: [minor, patch]
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: monthly

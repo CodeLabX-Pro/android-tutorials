@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lets the camera app write into our private "images" folder through FileProvider. -->
+<paths>
+    <cache-path
+        name="images"
+        path="images/" />
+</paths>

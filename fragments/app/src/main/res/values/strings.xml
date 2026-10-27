@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Fragments</string>
+    <string name="first">First</string>
+    <string name="second">Second</string>
+    <string name="first_title">First fragment</string>
+    <string name="first_body">A fragment is a reusable piece of a screen. Tap Second to swap it.</string>
+    <string name="second_title">Second fragment</string>
+    <string name="second_body">Fragments can have their own buttons and logic. Press Back to return.</string>
+    <string name="tap">Tap me</string>
+    <string name="no_taps">No taps yet</string>
+    <!-- Plurals pick the right word for the number: 1 time, 2 times. -->
+    <plurals name="taps">
+        <item quantity="one">Tapped %1$d time</item>
+        <item quantity="other">Tapped %1$d times</item>
+    </plurals>
+</resources>

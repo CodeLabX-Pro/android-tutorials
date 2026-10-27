@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Camera App</string>
+    <string name="take_photo">Take photo</string>
+    <string name="share_photo">Share</string>
+    <string name="placeholder">Your photo will appear here</string>
+    <string name="photo_description">The photo you took</string>
+    <string name="no_camera">No camera app found on this device</string>
+    <string name="cancelled">No photo taken</string>
+    <string name="share_with">Share photo with</string>
+</resources>

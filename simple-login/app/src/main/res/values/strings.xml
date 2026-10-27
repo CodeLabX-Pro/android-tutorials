@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Simple Login</string>
+    <string name="title">Welcome back</string>
+    <string name="subtitle">Log in to continue</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="button_login">Log in</string>
+    <string name="button_logout">Log out</string>
+    <string name="hint_demo">Try username user and password 123456</string>
+    <string name="error_username">Enter your username</string>
+    <string name="error_password">Enter your password</string>
+    <string name="error_invalid">Wrong username or password</string>
+    <string name="welcome">Welcome, %1$s!</string>
+</resources>

@@ -7,6 +7,7 @@ Step-by-step guides live on [codelab-x.com](https://codelab-x.com).
 
 | Tutorial | Video | Guide | Download |
 |---|---|---|---|
+| [Notes App: Jetpack Compose + Room](notes-compose-room) | Coming soon | [Read](https://codelab-x.com/upcoming/notes-compose-room) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/notes-compose-room.zip) |
 | [Login and Register with SQLite](login-register-sqlite) | [Watch](https://www.youtube.com/watch?v=8obgNNlj3Eo) | [Read](https://codelab-x.com/videos/8obgNNlj3Eo) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/login-register-sqlite.zip) |
 | [Splash Screen](splash-screen) | [Watch](https://www.youtube.com/watch?v=RYWMkin2YgQ) | [Read](https://codelab-x.com/videos/RYWMkin2YgQ) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/splash-screen.zip) |
 | [Animated Splash Screen](animated-splash-screen) | [Watch](https://www.youtube.com/watch?v=kt4Z-icG68g) | [Read](https://codelab-x.com/videos/kt4Z-icG68g) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/animated-splash-screen.zip) |

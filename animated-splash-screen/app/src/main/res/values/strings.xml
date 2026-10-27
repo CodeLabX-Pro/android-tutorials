@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Animated Splash</string>
+    <string name="home_title">You are in!</string>
+    <string name="home_subtitle">The splash screen animated in, waited for loading, then animated away.</string>
+</resources>

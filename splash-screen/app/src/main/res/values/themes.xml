@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.SplashDemo" parent="Theme.Material3.DayNight.NoActionBar" />
+
+    <!-- The splash screen paints its purple background through the window, so it appears instantly. -->
+    <style name="Theme.SplashDemo.Splash" parent="Theme.SplashDemo">
+        <item name="android:windowBackground">@color/brand</item>
+    </style>
+</resources>

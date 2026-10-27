@@ -1,0 +1,12 @@
+<resources>
+    <style name="Theme.AnimatedSplash" parent="Theme.Material3.DayNight.NoActionBar" />
+
+    <!-- The launch theme: the SplashScreen library reads these attributes. -->
+    <style name="Theme.AnimatedSplash.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/brand</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_animated</item>
+        <item name="windowSplashScreenAnimationDuration">1200</item>
+        <!-- After the splash, switch to the normal app theme. -->
+        <item name="postSplashScreenTheme">@style/Theme.AnimatedSplash</item>
+    </style>
+</resources>

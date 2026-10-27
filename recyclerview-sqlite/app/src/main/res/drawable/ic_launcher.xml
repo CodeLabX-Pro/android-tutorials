@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A database cylinder on a purple tile. Vector, so one file covers every screen density. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#7B2FE0"
+        android:pathData="M0,0h108v108h-108z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,38c0,-5.5 9,-10 20,-10s20,4.5 20,10v32c0,5.5 -9,10 -20,10s-20,-4.5 -20,-10z" />
+    <path
+        android:fillColor="#E9DDFF"
+        android:pathData="M34,38c0,5.5 9,10 20,10s20,-4.5 20,-10c0,-5.5 -9,-10 -20,-10s-20,4.5 -20,10z" />
+</vector>

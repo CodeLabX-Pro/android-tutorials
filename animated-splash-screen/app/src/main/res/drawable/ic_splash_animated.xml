@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Connects the logo to its animation. Used as the splash icon in themes.xml. -->
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_splash_logo">
+    <target
+        android:name="brackets"
+        android:animation="@animator/brackets_pop" />
+</animated-vector>

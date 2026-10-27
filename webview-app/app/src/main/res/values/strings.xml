@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Web App</string>
+    <string name="offline">Could not load the page. Check your internet connection.</string>
+    <string name="no_app">No app can open this link.</string>
+</resources>

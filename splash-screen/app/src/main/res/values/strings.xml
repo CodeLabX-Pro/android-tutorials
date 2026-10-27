@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Splash Screen</string>
+    <string name="tagline">Your app starts here</string>
+    <string name="home_title">Welcome to the app</string>
+</resources>

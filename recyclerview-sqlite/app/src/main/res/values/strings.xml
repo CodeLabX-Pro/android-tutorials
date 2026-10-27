@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RecyclerView SQLite</string>
+    <string name="form_title">Please enter your details</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_age">Age</string>
+    <string name="button_insert">Insert Data</string>
+    <string name="button_delete">Delete Data</string>
+    <string name="button_view">View Data</string>
+    <string name="age_value">Age: %1$s</string>
+    <string name="need_name">Please enter a name</string>
+    <string name="inserted">New entry inserted</string>
+    <string name="not_inserted">Not inserted: that name already exists</string>
+    <string name="deleted">Deleted %1$s</string>
+    <string name="not_deleted">No user with that name</string>
+    <string name="delete_user">Delete user</string>
+    <string name="empty">No users yet. Add one first.</string>
+</resources>

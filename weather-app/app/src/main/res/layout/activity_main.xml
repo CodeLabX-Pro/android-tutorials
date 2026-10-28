@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="24dp"
+    tools:context=".MainActivity">
+
+    <!-- Search box and button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/cityInput"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:background="@drawable/glass"
+            android:hint="@string/hint_city"
+            android:imeOptions="actionSearch"
+            android:importantForAutofill="no"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:paddingHorizontal="20dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/white_soft"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/btnSearch"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/glass"
+            android:contentDescription="@string/search"
+            android:src="@drawable/ic_search" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:indeterminateTint="@android:color/white"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/glass"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:visibility="gone"
+        tools:text="@string/error_city"
+        tools:visibility="visible" />
+
+    <!-- The weather, hidden until the first answer arrives -->
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        tools:visibility="visible">
+
+        <TextView
+            android:id="@+id/textCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:text="Mumbai" />
+
+        <ImageView
+            android:id="@+id/weatherIcon"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="12dp"
+            android:importantForAccessibility="no"
+            tools:src="@drawable/ic_partly_cloudy" />
+
+        <TextView
+            android:id="@+id/textTemperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="96sp"
+            android:textStyle="bold"
+            tools:text="29°" />
+
+        <TextView
+            android:id="@+id/textDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            tools:text="Partly cloudy" />
+
+        <!-- Three small tiles -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:orientation="horizontal">
+
+            <LinearLayout style="@style/Tile">
+                <TextView style="@style/TileLabel" android:text="@string/feels_like" />
+                <TextView android:id="@+id/textFeelsLike" style="@style/TileValue" tools:text="33°" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Tile" android:layout_marginHorizontal="10dp">
+                <TextView style="@style/TileLabel" android:text="@string/humidity" />
+                <TextView android:id="@+id/textHumidity" style="@style/TileValue" tools:text="70%" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Tile">
+                <TextView style="@style/TileLabel" android:text="@string/wind" />
+                <TextView android:id="@+id/textWind" style="@style/TileValue" tools:text="15 km/h" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

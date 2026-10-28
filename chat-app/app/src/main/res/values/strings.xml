@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Chat</string>
+    <string name="title_sign_in">Welcome back</string>
+    <string name="title_create">Create your account</string>
+    <string name="subtitle">Chat with friends in real time.</string>
+    <string name="hint_name">Your name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="create_account">Create account</string>
+    <string name="switch_to_create">New here? Create an account</string>
+    <string name="switch_to_sign_in">Already have an account? Sign in</string>
+    <string name="error_name">Enter your name</string>
+    <string name="error_email">Enter a valid email</string>
+    <string name="error_password">Use at least 6 characters</string>
+    <string name="title_chats">Chats</string>
+    <string name="subtitle_chats">Tap someone to start chatting.</string>
+    <string name="empty_users">No one else is here yet. Create a second account on another phone or emulator, then chat between them.</string>
+    <string name="log_out">Log out</string>
+    <string name="back">Back</string>
+    <string name="hint_message">Message</string>
+    <string name="send">Send</string>
+</resources>

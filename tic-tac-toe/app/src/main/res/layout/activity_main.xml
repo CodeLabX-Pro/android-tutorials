@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="24dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textScoreX"
+            style="@style/Score"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/score_x"
+            android:textColor="@color/player_x"
+            tools:text="X  0" />
+
+        <TextView
+            android:id="@+id/textScoreO"
+            style="@style/Score"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/score_o"
+            android:textColor="@color/player_o"
+            tools:text="O  0" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:text="X's turn" />
+
+    <!-- The board: nine cells, numbered 0 to 8 in the order they appear here. -->
+    <GridLayout
+        android:id="@+id/board"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3">
+
+        <Button style="@style/Cell" />
+        <Button style="@style/Cell" />
+        <Button style="@style/Cell" />
+        <Button style="@style/Cell" />
+        <Button style="@style/Cell" />
+        <Button style="@style/Cell" />
+        <Button style="@style/Cell" />
+        <Button style="@style/Cell" />
+        <Button style="@style/Cell" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btnPlayAgain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:minHeight="56dp"
+        android:text="@string/play_again" />
+
+    <Button
+        android:id="@+id/btnReset"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:minHeight="56dp"
+        android:text="@string/reset_scores" />
+</LinearLayout>

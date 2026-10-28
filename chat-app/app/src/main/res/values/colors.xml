@@ -1,0 +1,8 @@
+<resources>
+    <color name="brand">#6C47FF</color>
+    <color name="sent_time">#CCFFFFFF</color>
+    <color name="received_bubble">#EEEEF4</color>
+    <color name="received_text">#1C1B22</color>
+    <color name="received_time">#6E6B7B</color>
+    <color name="input_box">#1A6C47FF</color>
+</resources>

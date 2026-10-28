@@ -27,5 +27,8 @@ Step-by-step guides live on [codelab-x.com](https://codelab-x.com).
 | [Switch Between Activities](switch-activities) | [Watch](https://www.youtube.com/watch?v=bVotsd64kx4) | [Read](https://codelab-x.com/videos/bVotsd64kx4) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/switch-activities.zip) |
 | [Send Email with an Intent](email-intent) | [Watch](https://www.youtube.com/watch?v=0jR87MImwy8) | [Read](https://codelab-x.com/videos/0jR87MImwy8) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/email-intent.zip) |
 | [SQLite CRUD](sqlite-crud) | [Watch](https://www.youtube.com/watch?v=9t8VVWebRFM) | [Read](https://codelab-x.com/videos/9t8VVWebRFM) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/sqlite-crud.zip) |
+| [Tic Tac Toe](tic-tac-toe) | [Watch](https://www.youtube.com/watch?v=NyUbptjoqb8) | [Read](https://codelab-x.com/videos/NyUbptjoqb8) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/tic-tac-toe.zip) |
+| [Weather App](weather-app) | [Watch](https://www.youtube.com/watch?v=aL1wGcyyNJc) | [Read](https://codelab-x.com/videos/aL1wGcyyNJc) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/weather-app.zip) |
+| [Chat App (Firebase)](chat-app) | [Watch](https://www.youtube.com/watch?v=V9li7YP1NWg) | [Read](https://codelab-x.com/videos/V9li7YP1NWg) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/chat-app.zip) |
 
 Every project is built with the current stable Android Gradle Plugin before it is published.

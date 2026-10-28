@@ -1,0 +1,33 @@
+<resources>
+    <!-- The sky gradient is the window background, so it shows instantly and isn't drawn twice. -->
+    <style name="Theme.Weather" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowBackground">@drawable/sky</item>
+    </style>
+
+    <style name="Tile">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/glass</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+    <style name="TileLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white_soft</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TileValue">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

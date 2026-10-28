@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="hint_city">Search a city</string>
+    <string name="search">Search</string>
+    <string name="feels_like">Feels like</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind">Wind</string>
+    <string name="degrees">%1$d°</string>
+    <string name="percent">%1$d%%</string>
+    <string name="kmh">%1$d km/h</string>
+    <string name="error_empty">Type a city name</string>
+    <string name="error_city">City not found. Check the spelling and try again.</string>
+    <string name="error_key">OpenWeather rejected the API key. New keys can take up to 2 hours to start working.</string>
+    <string name="error_no_key">Add OPENWEATHER_API_KEY=your-key to local.properties, then run the app again.</string>
+    <string name="error_network">No connection. Check your internet and try again.</string>
+    <string name="error_server">The weather service didn\'t answer properly. Try again in a moment.</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <color name="player_x">#E2432F</color>
+    <color name="player_o">#0B84C9</color>
+    <color name="score_x_bg">#FFE9E5</color>
+    <color name="score_o_bg">#E1F4FD</color>
+    <color name="winning_cell">#FFE680</color>
+</resources>

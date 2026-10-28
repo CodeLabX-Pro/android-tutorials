@@ -32,5 +32,8 @@ Step-by-step guides live on [codelab-x.com](https://codelab-x.com).
 | [Chat App (Firebase)](chat-app) | [Watch](https://www.youtube.com/watch?v=V9li7YP1NWg) | [Read](https://codelab-x.com/videos/V9li7YP1NWg) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/chat-app.zip) |
 | [Forgot Password with SQLite](forgot-password-sqlite) | [Watch](https://www.youtube.com/watch?v=jRO0RUztch4) | [Read](https://codelab-x.com/videos/jRO0RUztch4) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/forgot-password-sqlite.zip) |
 | [Text to PDF and PDF Viewer](text-to-pdf) | [Watch](https://www.youtube.com/watch?v=4-QZdipq80g) | [Read](https://codelab-x.com/videos/4-QZdipq80g) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/text-to-pdf.zip) |
+| [AdMob Banner Ads](admob-banner) | [Watch](https://www.youtube.com/watch?v=nHnrCW36jYE) | [Read](https://codelab-x.com/videos/nHnrCW36jYE) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/admob-banner.zip) |
+| [AdMob Interstitial Ads](admob-interstitial) | [Watch](https://www.youtube.com/watch?v=zlnRM3oKYas) | [Read](https://codelab-x.com/videos/zlnRM3oKYas) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/admob-interstitial.zip) |
+| [Stock Tracker (Finnhub)](stock-tracker) | [Watch](https://www.youtube.com/watch?v=MzB4Z_Of55k) | [Read](https://codelab-x.com/videos/MzB4Z_Of55k) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/stock-tracker.zip) |
 
 Every project is built with the current stable Android Gradle Plugin before it is published.

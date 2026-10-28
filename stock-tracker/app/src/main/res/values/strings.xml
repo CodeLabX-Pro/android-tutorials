@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Stock Tracker</string>
+    <string name="title">Stock tracker</string>
+    <string name="hint_symbol">Symbol, e.g. AAPL</string>
+    <string name="track">Track</string>
+    <string name="details">%1$s · %2$s</string>
+    <string name="change_up">▲ %1$s (%2$.2f%%)</string>
+    <string name="change_down">▼ %1$s (%2$.2f%%)</string>
+    <string name="open">Open</string>
+    <string name="previous_close">Previous close</string>
+    <string name="high">Day high</string>
+    <string name="low">Day low</string>
+    <string name="updated">Updated %1$s · refreshes every 15 seconds</string>
+    <string name="error_empty">Type a stock symbol</string>
+    <string name="error_symbol">No price found for that symbol. US symbols such as AAPL, MSFT or TSLA work on the free plan.</string>
+    <string name="error_key">Finnhub rejected the API key. Check FINNHUB_API_KEY in local.properties.</string>
+    <string name="error_no_key">Add FINNHUB_API_KEY=your-key to local.properties, then run the app again.</string>
+    <string name="error_limit">Too many requests. Wait a minute and it will carry on.</string>
+    <string name="error_network">No connection. Check your internet.</string>
+    <string name="error_server">The stock service didn\'t answer properly. Trying again soon.</string>
+</resources>

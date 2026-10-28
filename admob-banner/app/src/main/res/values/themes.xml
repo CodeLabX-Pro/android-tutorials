@@ -1,0 +1,13 @@
+<resources>
+    <style name="Theme.AdMobBanner" parent="Theme.Material3.DayNight.NoActionBar" />
+
+    <!-- One tip card. -->
+    <style name="Tip">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:background">@drawable/tip</item>
+        <item name="android:padding">18dp</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+</resources>

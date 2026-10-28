@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AdMob Interstitial</string>
+    <string name="title">You\'re on</string>
+    <string name="level">Level %1$d</string>
+    <string name="how_it_works">A test ad appears after every second level.</string>
+    <string name="finish_level">Finish level</string>
+    <string name="ad_loading">Ad: loading…</string>
+    <string name="ad_ready">Ad: ready</string>
+    <string name="ad_failed">Ad: not available (%1$s)</string>
+</resources>

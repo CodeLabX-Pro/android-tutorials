@@ -1,0 +1,6 @@
+<resources>
+    <color name="brand">#0754ED</color>
+    <color name="up">#0A9F62</color>
+    <color name="down">#D93025</color>
+    <color name="error_bg">#1AD93025</color>
+</resources>

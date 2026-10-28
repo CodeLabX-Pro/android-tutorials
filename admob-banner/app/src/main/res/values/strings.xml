@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AdMob Banner</string>
+    <string name="title">Android tips</string>
+    <string name="subtitle">The banner at the bottom is a Google test ad.</string>
+    <string name="tip_1">Keep all text in strings.xml, so translating your app is one file per language.</string>
+    <string name="tip_2">Use dp for sizes and sp for text, so your layout looks right on every screen.</string>
+    <string name="tip_3">Do slow work, like network calls, off the main thread, so the app never freezes.</string>
+    <string name="tip_4">Test on a small phone and a large one before you publish.</string>
+</resources>

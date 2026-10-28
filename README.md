@@ -35,5 +35,8 @@ Step-by-step guides live on [codelab-x.com](https://codelab-x.com).
 | [AdMob Banner Ads](admob-banner) | [Watch](https://www.youtube.com/watch?v=nHnrCW36jYE) | [Read](https://codelab-x.com/videos/nHnrCW36jYE) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/admob-banner.zip) |
 | [AdMob Interstitial Ads](admob-interstitial) | [Watch](https://www.youtube.com/watch?v=zlnRM3oKYas) | [Read](https://codelab-x.com/videos/zlnRM3oKYas) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/admob-interstitial.zip) |
 | [Stock Tracker (Finnhub)](stock-tracker) | [Watch](https://www.youtube.com/watch?v=MzB4Z_Of55k) | [Read](https://codelab-x.com/videos/MzB4Z_Of55k) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/stock-tracker.zip) |
+| [Buttons (2026)](buttons) | [Watch](https://www.youtube.com/watch?v=UbdrcN6kjRA) | [Read](https://codelab-x.com/videos/UbdrcN6kjRA) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/buttons.zip) |
+| [Jetpack Compose for Beginners](compose-basics) | [Watch](https://www.youtube.com/watch?v=iQREkIiHYWc) | [Read](https://codelab-x.com/videos/iQREkIiHYWc) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/compose-basics.zip) |
+| [Login App in Jetpack Compose](compose-login) | [Watch](https://www.youtube.com/watch?v=wz34oLZx-6A) | [Read](https://codelab-x.com/videos/wz34oLZx-6A) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/compose-login.zip) |
 
 Every project is built with the current stable Android Gradle Plugin before it is published.

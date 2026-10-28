@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <!-- 1. A basic button -->
+        <TextView style="@style/Section" android:text="@string/section_basic" />
+
+        <Button
+            android:id="@+id/btnTap"
+            style="@style/WideButton"
+            android:text="@string/tap_me" />
+
+        <TextView
+            android:id="@+id/textTapCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/tap_hint"
+            android:textSize="16sp" />
+
+        <!-- 2. The five Material 3 styles, from most to least important -->
+        <TextView style="@style/Section" android:text="@string/section_styles" />
+
+        <Button
+            android:id="@+id/btnFilled"
+            style="@style/WideButton"
+            android:text="@string/filled" />
+
+        <Button
+            android:id="@+id/btnTonal"
+            style="@style/WideButton.Tonal"
+            android:text="@string/tonal" />
+
+        <Button
+            android:id="@+id/btnElevated"
+            style="@style/WideButton.Elevated"
+            android:text="@string/elevated" />
+
+        <Button
+            android:id="@+id/btnOutlined"
+            style="@style/WideButton.Outlined"
+            android:text="@string/outlined" />
+
+        <Button
+            android:id="@+id/btnText"
+            style="@style/WideButton.Text"
+            android:text="@string/text_button" />
+
+        <!-- 3. A button with an icon -->
+        <TextView style="@style/Section" android:text="@string/section_icon" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLike"
+            style="@style/WideButton.Tonal"
+            android:text="@string/like"
+            app:icon="@drawable/ic_heart_outline"
+            app:iconGravity="textStart" />
+
+        <!-- 4. Your own shape and colour -->
+        <TextView style="@style/Section" android:text="@string/section_custom" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPill"
+            style="@style/WideButton"
+            android:backgroundTint="@color/coral"
+            android:text="@string/pill"
+            android:textColor="@android:color/white"
+            app:cornerRadius="28dp"
+            app:strokeColor="@color/coral_dark"
+            app:strokeWidth="2dp" />
+
+        <!-- 5. Turning a button off -->
+        <TextView style="@style/Section" android:text="@string/section_enable" />
+
+        <CheckBox
+            android:id="@+id/checkAgree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/agree"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnContinue"
+            style="@style/WideButton"
+            android:enabled="false"
+            android:text="@string/continue_text" />
+
+        <!-- 6. A toggle group: pick one -->
+        <TextView style="@style/Section" android:text="@string/section_toggle" />
+
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:id="@+id/groupRange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:checkedButton="@id/btnDay"
+            app:selectionRequired="true"
+            app:singleSelection="true">
+
+            <Button
+                android:id="@+id/btnDay"
+                style="@style/ToggleButton"
+                android:text="@string/day" />
+
+            <Button
+                android:id="@+id/btnWeek"
+                style="@style/ToggleButton"
+                android:text="@string/week" />
+
+            <Button
+                android:id="@+id/btnMonth"
+                style="@style/ToggleButton"
+                android:text="@string/month" />
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+
+        <TextView
+            android:id="@+id/textRange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/showing_day"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

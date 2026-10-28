@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Buttons</string>
+    <string name="title">Buttons</string>
+    <string name="section_basic">1. A basic button</string>
+    <string name="tap_me">Tap me</string>
+    <string name="tap_hint">Tap the button. Long-press it to reset.</string>
+    <plurals name="taps">
+        <item quantity="one">Tapped %d time</item>
+        <item quantity="other">Tapped %d times</item>
+    </plurals>
+    <string name="section_styles">2. Five styles</string>
+    <string name="filled">Filled</string>
+    <string name="tonal">Tonal</string>
+    <string name="elevated">Elevated</string>
+    <string name="outlined">Outlined</string>
+    <string name="text_button">Text</string>
+    <string name="you_tapped">You tapped %1$s</string>
+    <string name="section_icon">3. With an icon</string>
+    <string name="like">Like</string>
+    <string name="liked">Liked</string>
+    <string name="section_custom">4. Your own shape and colour</string>
+    <string name="pill">Pill button</string>
+    <string name="pill_tapped">Round corners and your own colour</string>
+    <string name="section_enable">5. Turn a button on and off</string>
+    <string name="agree">I agree to the terms</string>
+    <string name="continue_text">Continue</string>
+    <string name="continued">Thanks! On to the next step.</string>
+    <string name="section_toggle">6. Pick one</string>
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="showing">Showing: %1$s</string>
+    <string name="showing_day">Showing: Day</string>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <!-- The window background before Compose draws; Compose then uses ComposeBasicsTheme. -->
+    <style name="Theme.ComposeBasics" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">#F7F5FC</item>
+    </style>
+</resources>

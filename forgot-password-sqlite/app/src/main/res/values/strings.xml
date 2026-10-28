@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Forgot Password</string>
+    <string name="title_login">Welcome back</string>
+    <string name="title_register">Create an account</string>
+    <string name="title_forgot">Reset your password</string>
+    <string name="forgot_intro">Answer your security question, then choose a new password.</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_new_password">New password</string>
+    <string name="hint_confirm_password">Type the new password again</string>
+    <string name="security_question">Security question: what was the name of your first school?</string>
+    <string name="hint_answer">Your answer</string>
+    <string name="button_login">Login</string>
+    <string name="button_signup">Sign up</string>
+    <string name="button_logout">Log out</string>
+    <string name="button_reset">Reset password</string>
+    <string name="link_register">New user? Register here</string>
+    <string name="link_login">Existing user? Login here</string>
+    <string name="link_forgot">Forgot password?</string>
+    <string name="link_back">Back to login</string>
+    <string name="welcome">Welcome %1$s</string>
+    <string name="error_empty">Please enter a username and password</string>
+    <string name="error_fill_all">Please fill in every box</string>
+    <string name="error_login">Wrong username or password</string>
+    <string name="error_exists">That username is already taken</string>
+    <string name="error_mismatch">The passwords don\'t match</string>
+    <string name="error_reset">That username and answer don\'t match. Check both and try again.</string>
+    <string name="registered">Registration successful</string>
+    <string name="reset_done">Password changed. Log in with your new password.</string>
+</resources>

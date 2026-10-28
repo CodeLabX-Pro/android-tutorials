@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Text to PDF</string>
+    <string name="title">Text to PDF</string>
+    <string name="subtitle">Write something, then turn it into a PDF.</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_body">Your text</string>
+    <string name="create_pdf">Create PDF</string>
+    <string name="error_title">Add a title</string>
+    <string name="error_body">Write some text first</string>
+    <string name="error_create">Couldn\'t create the PDF. Check there\'s free space and try again.</string>
+    <string name="error_open">Couldn\'t open the PDF</string>
+    <string name="error_save">Couldn\'t save the copy</string>
+    <string name="saved">Saved</string>
+    <string name="back">Back</string>
+    <string name="share">Share PDF</string>
+    <string name="save">Save a copy</string>
+    <string name="page_number">Page %1$d</string>
+</resources>

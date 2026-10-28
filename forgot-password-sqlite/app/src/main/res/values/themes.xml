@@ -1,0 +1,49 @@
+<resources>
+    <style name="Theme.ForgotPassword" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Every screen is navy, so the window paints it once. -->
+        <item name="android:windowBackground">@color/navy</item>
+    </style>
+
+    <!-- One amber input box. Every form on every screen uses it. -->
+    <style name="Field">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:background">@color/amber</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textColorHint">@color/hint</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">24dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MainButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:backgroundTint">@color/ink</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- An amber text link, such as "New user? Register here". -->
+    <style name="Link">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textColor">@color/amber</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>

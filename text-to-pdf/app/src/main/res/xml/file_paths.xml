@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The folders FileProvider may share from: only the app's own pdfs folder. -->
+<paths>
+    <files-path
+        name="pdfs"
+        path="pdfs/" />
+</paths>

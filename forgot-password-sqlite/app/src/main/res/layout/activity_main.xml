@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingHorizontal="24dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/Title"
+        android:text="@string/title_login" />
+
+    <EditText
+        android:id="@+id/userNameText"
+        style="@style/Field"
+        android:autofillHints="username"
+        android:hint="@string/hint_username"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        style="@style/Field"
+        android:autofillHints="password"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textForgot"
+        style="@style/Link"
+        android:layout_gravity="end"
+        android:layout_marginTop="0dp"
+        android:text="@string/link_forgot" />
+
+    <Button
+        android:id="@+id/loginButton"
+        style="@style/MainButton"
+        android:text="@string/button_login" />
+
+    <TextView
+        android:id="@+id/textSignup"
+        style="@style/Link"
+        android:text="@string/link_register" />
+</LinearLayout>

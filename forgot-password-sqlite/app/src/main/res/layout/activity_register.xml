@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingHorizontal="24dp"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        style="@style/Title"
+        android:text="@string/title_register" />
+
+    <EditText
+        android:id="@+id/userNameText"
+        style="@style/Field"
+        android:autofillHints="username"
+        android:hint="@string/hint_username"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        style="@style/Field"
+        android:autofillHints="newPassword"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword" />
+
+    <!-- The question is fixed text; only the answer is saved (hashed). -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/security_question"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/answerText"
+        style="@style/Field"
+        android:hint="@string/hint_answer"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/signupButton"
+        style="@style/MainButton"
+        android:text="@string/button_signup" />
+
+    <TextView
+        android:id="@+id/textLogin"
+        style="@style/Link"
+        android:text="@string/link_login" />
+</LinearLayout>

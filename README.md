@@ -30,5 +30,7 @@ Step-by-step guides live on [codelab-x.com](https://codelab-x.com).
 | [Tic Tac Toe](tic-tac-toe) | [Watch](https://www.youtube.com/watch?v=NyUbptjoqb8) | [Read](https://codelab-x.com/videos/NyUbptjoqb8) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/tic-tac-toe.zip) |
 | [Weather App](weather-app) | [Watch](https://www.youtube.com/watch?v=aL1wGcyyNJc) | [Read](https://codelab-x.com/videos/aL1wGcyyNJc) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/weather-app.zip) |
 | [Chat App (Firebase)](chat-app) | [Watch](https://www.youtube.com/watch?v=V9li7YP1NWg) | [Read](https://codelab-x.com/videos/V9li7YP1NWg) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/chat-app.zip) |
+| [Forgot Password with SQLite](forgot-password-sqlite) | [Watch](https://www.youtube.com/watch?v=jRO0RUztch4) | [Read](https://codelab-x.com/videos/jRO0RUztch4) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/forgot-password-sqlite.zip) |
+| [Text to PDF and PDF Viewer](text-to-pdf) | [Watch](https://www.youtube.com/watch?v=4-QZdipq80g) | [Read](https://codelab-x.com/videos/4-QZdipq80g) | [ZIP](https://github.com/CodeLabX-Pro/android-tutorials/releases/download/downloads/text-to-pdf.zip) |
 
 Every project is built with the current stable Android Gradle Plugin before it is published.

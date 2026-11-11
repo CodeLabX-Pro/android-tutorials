@@ -2,8 +2,8 @@
 
 A chat app where you ask a question and Google Gemini answers word by word. It remembers the conversation, has a New chat button, and keeps no API key in the app: Firebase AI Logic holds the key, and App Check makes sure only your app can use it.
 
-- Video: coming soon
-- Step-by-step guide: https://codelab-x.com/upcoming/ai-chatbot-gemini-firebase
+- Video: https://www.youtube.com/watch?v=QA9_rG7fPn4
+- Step-by-step guide: https://codelab-x.com/videos/ai-chatbot-app-in-android-studio-with-gemini-and-firebase
 
 ## Run it
 
